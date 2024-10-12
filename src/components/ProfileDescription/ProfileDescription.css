@@ -1,0 +1,63 @@
+.description-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.description-item h2 {
+  margin-top: 1em;
+  font-weight: 900;
+  font-size: 2rem;
+  letter-spacing: 1.5px;
+  /* margin-bottom: 0.2em; */
+}
+
+.description-item h3 {
+  font-weight: 200;
+  color: #f3bf99;
+}
+
+.email {
+  color: #f5f5f5;
+  margin-top: 1.2em;
+  font-size: 0.9rem;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 320px;
+}
+
+.social-links a {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.btn {
+  padding: 10px 30px;
+  margin-top: 2em;
+  font-weight: 600;
+  border-radius: 2%;
+  background-color: white;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 90px;
+  transition: transform 0.3s ease; /* Add transition for smooth animation */
+}
+
+.btn:hover {
+  /* scale: 2; */
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.btn-linkedin {
+  color: white;
+  background-color: #5093e2;
+}
